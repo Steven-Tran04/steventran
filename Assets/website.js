@@ -30,6 +30,4 @@ function addObserver(el, options){
     observer.observe(el)
 }
 // Example usages:
-scrollTrigger('.about', {
-    rootMargin: '-200px',
-})
+scrollTrigger('.intro-text')

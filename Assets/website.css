@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --font-family: "Comfortaa", sans-serif;
+  --font-family: "Roboto", sans-serif;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 body {
-  font-family: "Comfortaa", sans-serif;
+  font-family: var(--font-family);
   background-color:lightblue;
 }
 
