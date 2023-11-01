@@ -41,7 +41,7 @@ a:hover {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: "Comfortaa", sans-serif;
   background-color:lightblue;
 }
 
@@ -116,7 +116,7 @@ nav {
   
   .about{
     text-align: center;
-    font-size: 3em;
+    font-size: 24px;
     width: 0ch;
     overflow: hidden;
     margin: 0 auto;
