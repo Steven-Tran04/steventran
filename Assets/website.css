@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Comforta");
-
 /* Variables */
 :root {
-  --font-family: "Comfortaa";
+  --font-family: "Comfortaa", sans-serif;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -116,3 +114,21 @@ nav {
     outline: none;
   }
   
+  .about{
+    text-align: center;
+    font-size: 3em;
+    width: 0ch;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    background-image: linear-gradient(155deg, #fb7419, #bc1429, #319197);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.about.active{
+    animation: typeIn 2s steps(28) forwards;
+}
+@keyframes typeIn {
+    to { width: 28ch; }
+}
