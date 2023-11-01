@@ -30,6 +30,6 @@ function addObserver(el, options){
     observer.observe(el)
 }
 // Example usages:
-scrollTrigger('.about')
-scrollTrigger('.projects')
-scrollTrigger('.experience')
+// scrollTrigger('.about')
+// scrollTrigger('.projects')
+// scrollTrigger('.experience')
