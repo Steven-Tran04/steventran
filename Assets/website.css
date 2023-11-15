@@ -45,6 +45,20 @@ body {
   background-color:lightblue;
 }
 
+section {
+  height: 125vh;
+  padding: 0 clamp(4rem, 12vw, 20rem);
+  font-size: 24px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(75deg, #6870a6, #504986, #0b0428);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -113,60 +127,3 @@ nav {
     font-size: 0.875rem;
     outline: none;
   }
-  
-  .about{
-    text-align: center;
-    font-size: 24px;
-    width: 0ch;
-    overflow: hidden;
-    margin: 0 auto;
-    white-space: nowrap;
-    background-image: linear-gradient(155deg, #fb7419, #bc1429, #319197);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.about.active{
-    animation: typeIn 2s steps(28) forwards;
-}
-@keyframes typeIn {
-    to { width: 28ch; }
-}
-
-.projects{
-  text-align: center;
-  font-size: 24px;
-  width: 0ch;
-  overflow: hidden;
-  margin: 0 auto;
-  white-space: nowrap;
-  background-image: linear-gradient(155deg, #fb7419, #bc1429, #319197);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-.projects.active{
-  animation: typeIn 2s steps(28) forwards;
-}
-@keyframes typeIn {
-  to { width: 28ch; }
-}
-
-.experience{
-  text-align: center;
-  font-size: 24px;
-  width: 0ch;
-  overflow: hidden;
-  margin: 0 auto;
-  white-space: nowrap;
-  background-image: linear-gradient(155deg, #fb7419, #bc1429, #319197);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-.experience.active{
-  animation: typeIn 2s steps(28) forwards;
-}
-@keyframes typeIn {
-  to { width: 28ch; }
-}
